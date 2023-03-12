@@ -43,6 +43,15 @@ width: 150px;
         <h2 class="gameText" id="resultText">Here is the result: </h2>
 
     </div>
+</div>
+<div id="score-box">
+    <h2>Win:<span id="win"> 0</span></h2>
+    <h2>Draw:<span  id="draw"> 0</span></h2>
+    <h2>Lose:<span id="lose"> 0</span></h2>
+    <br>
+    <br>
+    <button class="restartBtn" type="button" onclick="window.location.reload()">Restart <br><i class="fa-solid fa-gamepad"></i></button>
+</div>
     <script>
 const yourText = document.querySelector("#yourText");
 const robotText = document.querySelector("#robotText");
@@ -59,6 +68,9 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     yourText.textContent = `Your choice: ${your}`;
     robotText.textContent = `Robot choice: ${robot}`;
     resultText.textContent = checkWinner();
+    if (resultText.textContent === "Congrats! You Win!"){incrementWin()};
+    if (resultText.textContent === "Draw!"){incrementDraw()};
+    if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
 
@@ -92,6 +104,28 @@ function checkWinner(){
       return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
     }
 }
+
+function incrementWin() {
+
+let score = parseInt(document.getElementById("win").innerText);
+document.getElementById("win").innerText = ++score;
+
+}
+
+function incrementDraw() {
+
+let score = parseInt(document.getElementById("draw").innerText);
+document.getElementById("draw").innerText = ++score;
+
+}
+
+function incrementLose() {
+
+let score = parseInt(document.getElementById("lose").innerText);
+document.getElementById("lose").innerText = ++score;
+
+}
+
 </script>
 </body>
 </html>
