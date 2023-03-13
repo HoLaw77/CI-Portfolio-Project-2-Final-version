@@ -122,7 +122,9 @@ span {
   #gameDiv{
     height: 200px;
   }
-  
+  #score-area{
+    margin-top: 5px;
+  }
   @media screen and (max-width: 320px){
     #main-area {
       height: 1200px;
