@@ -140,6 +140,16 @@ span {
   #score-box{
    margin-top: 15px;
   }
+  
+  #winText{
+   size: 50%;
+  } 
+  #drawText{
+    size: 50%;
+  }
+  #loseText{
+    size: 50%;
+  }
   }
     
   
