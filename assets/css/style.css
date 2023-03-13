@@ -95,7 +95,14 @@ span {
     display: inline;
     padding: 10px;
   }
-
+  
+  @media screen and (max-width: 1300px){
+    #main-area {
+      height: 1000px;
+    }
+  }
+    
+  
   @media screen and (max-width: 500px){
    #main-area {
   height: 800px;
