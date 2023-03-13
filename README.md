@@ -62,6 +62,7 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>I discover that some of my photo can not be positioned in the center of the page using align items.</li>
 <li>After checking in the W3school, I used the display:flex method to avoid adding padding to the image and fix it in the center of page even the media screen size changes.</li>
 <li>I also face difficulty in setting up a restart button. After revising the usage of window.location.reload(), I used this in index.html to avoid writing this function in script.js.</li>
+<li>After deployed the website, I find that some of the css style is missing. After checking I realised that it is because of adding an extra slash before the a href element.</li>
 
 </ul>
 
