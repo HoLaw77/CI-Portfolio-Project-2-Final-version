@@ -96,10 +96,10 @@ span {
     padding: 10px;
   }
   
-  @media screen and (max-width: 1300px){
-    #main-area {
-      height: 1000px;
-    }
+  @media screen and (max-width: 1200px){
+   #main-area {
+    height: auto;
+   }
   }
     
   
