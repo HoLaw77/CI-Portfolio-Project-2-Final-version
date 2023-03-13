@@ -96,9 +96,9 @@ span {
     padding: 10px;
   }
   
-  @media screen and (max-width: 1200px){
-   #main-area {
-    height: auto;
+  @media screen and (max-width: 1600px){
+   #score-box {
+    height: 1000px;
    }
   }
     
