@@ -5,6 +5,7 @@ Paper Scissor Rock Game is a game enable player to play paper scissor rock game 
 
 players can play by clicking the button representing paper, scissor, and rock respectively. Player's choice will be printed in the "Your choice" section. Upon clicking, computer will generate a random choice which will be printed in the "robot choice" section.
 
+<img src="assets/documentation/responsiveness.png" alt="responsiveness">
 <h1>Features</h1>
 
 <h1>Navigation and The Header</h1>
