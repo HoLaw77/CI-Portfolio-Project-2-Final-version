@@ -1,108 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="assets/documentation/logo-photo.png" alt="logo">
+<br>
+<br>
+Paper Scissor Rock Game is a game enable player to play paper scissor rock game with computer robot.
 
-Welcome HoLaw77,
+players can play by clicking the button representing paper, scissor, and rock respectively. Player's choice will be printed in the "Your choice" section. Upon clicking, computer will generate a random choice which will be printed in the "robot choice" section.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h1>Features</h1>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h1>Navigation and The Header</h1>
 
-## Gitpod Reminders
+<ul>
+<li>The Logo is located in the middle of the page, using a Syncopate font in light blue color and blueviolet background to match the cyberpunk setting of the theme.</li>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<li>There is a photo of paper, scissors and rock below the logo to show that it is a game of paper, scissors and rock</li>
 
-`python3 -m http.server`
+<li>The design of navigation not only present the usage of the game clearly, but it also arouses players' interests to serve and play the game.</li>
+</ul>
+<br>
+<img src="assets/documentation/navigation-and-header.png" alt="header">
+<br>
+<h1>Game area section</h1>
 
-A blue button should appear to click: _Make Public_,
+<ul>
+<li>The game area section provides three buttons which can be clicked by player to store their choices</li>
+<li>The game area has "Your choice" and "Robot choice" to store the choices of player and computer respectively so as to make the process of the game more userfriendly and smooth.</li>
+<li>There is a result line underneath the "Robot choice" in order to show the result of the game</li>
+<li>The JavaScript function enables the game to store players' choice, generate random number and assign it as computer choice, compare and contrast with the players' choices, and print out the result.</li>
+<li>The background photo of the game area is a cyberpunk cityscape photo to match the theme.</li>
+<li>The color of the text yellowgreen for "Your Choice", "Robort choice" and result text in order to stand in contrast for player to read easily.</li>
+<li>The 3 buttons have clear font awesome icon and text to show paper, scissors and rock respectively.</li>
+</ul>
+<br>
+<img src="assets/documentation/Game-area.png" alt="game-area"> 
 
-Another blue button should appear to click: _Open Browser_.
+<h1>Score area and Restart button</h1>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<ul>
+<li>The Score area has set three increment function to record the number of player's win, lose and draw.</li>
 
-A blue button should appear to click: _Make Public_,
+<li>The Score area background color is blueviolet to echo with that of the header.</li>
 
-Another blue button should appear to click: _Open Browser_.
+<li>The restart button uses the window.location.reload function to refresh the game when player wants to resstart the game in order to produce the effect of limited number of play.</li>
+<li>A game board font-icon has been added in the restart button to indicate that it is a restart button for navigation and matches the theme of game.</li>
+</ul>
+<br>
+<img src="assets/documentation/score-area.png" alt="score area">
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<h1>Testing</h1>
 
-To log into the Heroku toolbelt CLI:
+<ul>
+<li>I tested that this page works in different browser such as: Chrome, Microsoft-edge, Firefox.</li>
+<li>I confirmed the project is responsive, look goods and function on all standard size screen using devtool device tool bar.</li>
+</ul>
+<br>
+<h1>Bugs</h1>
+<h2>Solve bug</h2>
+<ul>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<li>I discover that some of my photo can not be positioned in the center of the page using align items.</li>
+<li>After checking in the W3school, I used the display:flex method to avoid adding padding to the image and fix it in the center of page even the media screen size changes.</li>
+<li>I also face difficulty in setting up a restart button. After revising the usage of window.location.reload(), I used this in index.html to avoid writing this function in script.js.</li>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+</ul>
 
-------
+<br>
+<h1>Validation Testing</h1>
+<ul>
+<li>HTML: No error was found using official W3C Validator.
+</li>
+<li>CSS: No error was found using official W3C Validator.
+</li>
+<li>Accesssibility: I confirm colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. </li>
+</ul>
+<br>
+<img src="assets/documentation/lighthouse.png" alt="lighthouse accessibility check">
+<br>
+<h1>Deployment</h1>
 
-## Release History
+<ul>
+The page is deployed to github page, following the below steps.
+<li>Navigate to setting in Github page</li>
+<li>Select page and select main branch from the dropdown menu</li>
+<li>Once the link is deployed, the link is generated in Github page.</li>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+</ul>
+<br>
+The link is here <a href="https://holaw77.github.io/CI-Portfolio-project-2-game/">Paper Scissor Rock Game</a>
+<br>
+<br>
+<h1>Credit</h1>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<h2>Content</h2>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The Code to make increment function were taken from the CI LoveMath project 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+For line 1- 19 in the sciprt.js has make reference to the method of forEach() in this video
+https://www.youtube.com/watch?v=n1_vHArDBRA
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h2>Media</h2>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<h3>Icons are from font-awesome</h3> 
+<a href="https://fontawesome.com/">https://fontawesome.com/</a>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<h3>The Lato and Syncopate fonts are from Google fonts</h3>
+<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap</a>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<h2>Photos reference</h2>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<h3>Index.html</h3>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<a href="https://freesvg.org/rock-paper-scissors">https://freesvg.org/rock-paper-scissors</a>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+https://pixexid.com/image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw
