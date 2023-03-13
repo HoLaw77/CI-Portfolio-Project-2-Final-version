@@ -122,7 +122,7 @@ span {
   
   @media screen and (max-width: 320px){
     #main-area {
-      height: 900px;
+      height: 1500px;
     }
 
     #gameDiv{
