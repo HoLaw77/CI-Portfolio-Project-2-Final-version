@@ -98,7 +98,7 @@ span {
   
   @media screen and (max-width: 1600px){
    #score-box {
-    height: 1000px;
+    height: auto;
    }
   }
     
