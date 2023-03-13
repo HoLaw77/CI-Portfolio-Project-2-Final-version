@@ -6,7 +6,7 @@
   }
 
 #main-area {
-  height: 550px;
+  height: 600px;
   background-image: url(../image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw.jpeg);
   background-position: center;
 
@@ -30,7 +30,7 @@ h2{
 }
 
 #resultText {
-  color: white;
+  color: #f0144b;
 }
 
 #robotText{
