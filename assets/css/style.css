@@ -104,7 +104,10 @@ span {
     
   
   @media screen and (max-width: 500px){
-   #main-area {
+   #heading{
+    font-size: 200%;
+   }
+    #main-area {
   height: 1000px;
 }
   .choiceBtn{
