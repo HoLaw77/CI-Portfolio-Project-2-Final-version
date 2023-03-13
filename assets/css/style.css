@@ -1,18 +1,140 @@
-* {
-    margin: 20px;
-    padding: 10px;
-  margin-left:50px;
-    text-align: centre;
+
+
+#logo{
+    display: flex;
+    justify-content: center;
   }
-  
+
+#main-area {
+  height: 550px;
+  background-image: url(../image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw.jpeg);
+  background-position: center;
+
+}
+
+#heading {
+    text-align: center;
+    font-size: 200% ;
+    font-family: Syncopate, sans-serif;
+    color: lightblue;
+    background-color: blueviolet;
+}
+
+h2{ 
+  color: lightblue;
+  font-family: Syncopate, sans-serif;
+}
+
+#yourText {
+  color: rgb(201, 235, 51);
+}
+
+#resultText {
+  color: rgb(201, 235, 51);
+}
+
+#robotText{
+  color: rgb(201, 235, 51);
+}
+
+
+#score-box {
+  padding-top: 10px;
+  height: 200px
+}
+
+.restartBtn {
+  background-color: blueviolet;
+  border-color: white;
+  border-width: 5px;
+  color: white;
+  width: 150px;
+    height: 100px;
+    font-size: 20px;
+} 
+
+span {
+  margin: 10px;
+}
+
   .choiceBtn {
   width: 150px;
-    height: 50px;
+    height: 100px;
     background: none;
     border: none;
-    color: rgb(224, 224, 224);
+    color: rgb(223, 22, 213);
     font-size: 20px;
-    background: rgb(45, 117, 96);
+    background: rgb(94, 214, 178);
     border-radius: 3px;
     cursor: pointer;
+    display: inline-block;
   }
+
+  i {
+    color: rgb(255, 213, 0);
+    font-size: 200%;
+  }
+
+  #gameDiv {
+    text-align: center;
+  }
+
+  .logo{
+    align-items: center;
+  }
+
+  #score-box{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+  
+  }
+
+  #score-box h2 {
+    display: inline;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 500px){
+   #main-area {
+  height: 800px;
+}
+  .choiceBtn{
+   
+   display: grid;
+   align-items: center;
+   margin-left: 100px;
+   margin-bottom: 10px;
+  }
+
+
+  #gameDiv{
+    height: 200px;
+  }
+  
+  @media screen and (max-width: 320px){
+    #main-area {
+      height: 900px;
+    }
+
+    #gameDiv{
+      height: 500px;
+    }
+    .choiceBtn{
+   
+      display: grid;
+      align-items: center;
+      margin-right: 200px;
+      margin-bottom: 10px;
+     }
+
+  }
+  #score-box{
+   margin-top: 15px;
+  }
+  }
+    
+  
+
+
+  
