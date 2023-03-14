@@ -18,6 +18,9 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
+document.addEventListener("DOMContentLoaded", function(){
+  if (document.getElementById("win") == 3){alert("You have won, please click restart")} else if (document.getElementById("lose") == 3){alert("You lose this round, please click restart")}}
+)
 
 function computerTurn(){
 
