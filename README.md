@@ -95,7 +95,7 @@ The link is here <a href="https://holaw77.github.io/CI-Portfolio-Project-2-Final
 
 <h2>Content</h2>
 
-The Code to make increment function were taken from the CI LoveMath project 
+The Code to make increment function were taken from <a href = "https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things">the CI LoveMath project</a> 
 
 For line 1- 19 in the sciprt.js has make reference to the method of forEach() in this video
 https://www.youtube.com/watch?v=n1_vHArDBRA. However, I have paraphrased and changed the code by adding personalised elements
