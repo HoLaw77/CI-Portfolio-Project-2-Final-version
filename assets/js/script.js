@@ -1,3 +1,4 @@
+//external code borrowed from youtube vide0//
 const yourText = document.querySelector("#yourText");
 const robotText = document.querySelector("#robotText");
 const resultText = document.querySelector("#resultText");
@@ -18,7 +19,7 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
-
+//end of external code//
 function computerTurn(){
 
     const randNum = Math.floor(Math.random() * 3) + 1;
