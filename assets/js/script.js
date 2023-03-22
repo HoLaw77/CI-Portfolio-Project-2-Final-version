@@ -1,4 +1,4 @@
-//external code borrowed from youtube vide0//
+//external code borrowed from youtube video//
 const yourText = document.querySelector("#yourText");
 const robotText = document.querySelector("#robotText");
 const resultText = document.querySelector("#resultText");
