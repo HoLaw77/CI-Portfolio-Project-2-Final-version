@@ -22,13 +22,15 @@ function robortChoice(){
   if (numAsChoice == 1){robortChoice = "rock"} else 
   if (numAsChoice == 2){robortChoice = "paper"} else
   if (numAsChoice == 3){robortChoice = "scissor"}
+  robortChoice = document.getElementById("robortText");
 }
 function gameResult(){
-  if (playerChoice === robortChoice) {return "Draw"} else 
-  if (playerChoice === "rock" && robortChoice === "paper"){return "Sorry, you lose."} else 
-  if (playerChoice === "paper" && robortChoice === "scissor"){return "Sorry, you lose."}else
-  if (playerChoice === "scissor" && robortChoice === "rock"){return "Sorry, you lose."}else 
-  {return "Congratulation! You win!" }
+  resultText = document.getElementById("resultText")
+  if (playerChoice === robortChoice) {resultText = "Draw"} else 
+  if (playerChoice === "rock" && robortChoice === "paper"){resultText = "Sorry, you lose."} else 
+  if (playerChoice === "paper" && robortChoice === "scissor"){resultText = "Sorry, you lose."}else
+  if (playerChoice === "scissor" && robortChoice === "rock"){resultText = "Sorry, you lose."}else 
+  {resultText = "Congratulation! You win!" }
 
 }
 
