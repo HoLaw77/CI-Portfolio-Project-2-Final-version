@@ -3,12 +3,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
     for (let button of buttons) {
       button.addEventListener("click", function(){
-        if (this.getAttribute("id") === "rockBtn"){alert("You choose rock.")} else
-        if (this.getAttribute("id") === "paperBtn"){alert("You choose paper.")} else
-        if (this.getAttribute("id") === "scissorBtn"){alert("You choose scissor.")}  
+        if (this.getAttribute("id") === "rockBtn"){playerChoice = "rock"} else
+        if (this.getAttribute("id") === "paperBtn"){playerChoice = "paper"} else
+        if (this.getAttribute("id") === "scissorsBtn"){playerChoice = "scissor"}
+        robortChoice();
+        gameResult();
+
+
       })
     } 
-
 }
 ) 
+
+function robortChoice(){
+  const numAsChoice = Math.floor(Math.random() * 3)+1
+
+  if (numAsChoice == 1){robortChoice = "rock"} else 
+  if (numAsChoice == 2){robortChoice = "paper"} else
+  if (numAsChoice == 3){robortChoice = "scissor"}
+}
+
 
