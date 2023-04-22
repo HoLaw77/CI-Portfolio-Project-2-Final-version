@@ -1,4 +1,4 @@
-let playerChoice;
+let playerChoice = document.getElementById("yourText");
 let robortText = document.getElementById("robortText");
 document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.getElementsByTagName("button");
@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       robotChoice();
       gameResult();
-      if (resultText.textcontent === "Congratulation! You win!") {
+      if (resultText.innerHTML === "Congratulation! You win!") {
         incrementWin()
       };
-      if (resultText.textcontent === "Sorry, you lose.") {
+      if (resultText.innerHTML === "Sorry, you lose.") {
         incrementLose()
       };
-      if (resultText.textcontent === "Draw") {
+      if (resultText.innerHTML === "Draw") {
         incrementDraw()
       };
     })
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function robotChoice() {
   const numAsChoice = Math.floor(Math.random() * 3) + 1
-  robortText = document.getElementById("robortChoice");
+  robortText = document.getElementById("robortText");
 
   if (numAsChoice == 1) {
     robortText.innerHTML = "rock"
@@ -47,17 +47,17 @@ function robotChoice() {
 }
 
 function gameResult() {
-  resultText.innerHTML = document.getElementById("resultText")
-  if (playerChoice === robortChoice) {
+  resultText.innerHTML = document.getElementById("resultText");
+  if (playerChoice === robortText.innerHTML) {
     resultText.innerHTML = "Draw"
   } else
-  if (playerChoice === "rock" && robortChoice === "paper") {
+  if (playerChoice === "rock" && robortText.innerHTML === "paper") {
     resultText.innerHTML = "Sorry, you lose."
   } else
-  if (playerChoice === "paper" && robortChoice === "scissor") {
+  if (playerChoice === "paper" && robortText.innerHTML === "scissor") {
     resultText.innerHTML = "Sorry, you lose."
   } else
-  if (playerChoice === "scissor" && robortChoice === "rock") {
+  if (playerChoice === "scissor" && robortText.innerHTML === "rock") {
     resultText.innerHTML = "Sorry, you lose."
   } else {
     resultText.innerHTML = "Congratulation! You win!"
