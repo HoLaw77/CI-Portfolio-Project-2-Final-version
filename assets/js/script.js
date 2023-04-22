@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
     for (let button of buttons) {
       button.addEventListener("click", function(){
-        if (this.getAttribute("id") === "rockBtn"){playerChoice = "rock"} else
-        if (this.getAttribute("id") === "paperBtn"){playerChoice = "paper"} else
+        if (this.getAttribute("id") === "rockBtn"){playerChoice = "rock"}
+        if (this.getAttribute("id") === "paperBtn"){playerChoice = "paper"} 
         if (this.getAttribute("id") === "scissorsBtn"){playerChoice = "scissor"}
         robortChoice();
         gameResult();
