@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let button of buttons) {
     button.addEventListener("click", function () {
       if (this.getAttribute("id") === "rockBtn") {
-        playerChoice = "rock"
+        playerChoice.innerHTML = "rock"
       }
       if (this.getAttribute("id") === "paperBtn") {
-        playerChoice = "paper"
+        playerChoice.innerHTML = "paper"
       }
       if (this.getAttribute("id") === "scissorsBtn") {
-        playerChoice = "scissor"
+        playerChoice.innerHTML = "scissor"
       }
       robotChoice();
       gameResult();
@@ -48,16 +48,16 @@ function robotChoice() {
 
 function gameResult() {
   resultText.innerHTML = document.getElementById("resultText");
-  if (playerChoice === robortText.innerHTML) {
+  if (playerChoice.innerHTML === robortText.innerHTML) {
     resultText.innerHTML = "Draw"
   } else
-  if (playerChoice === "rock" && robortText.innerHTML === "paper") {
+  if (playerChoice.innerHTML === "rock" && robortText.innerHTML === "paper") {
     resultText.innerHTML = "Sorry, you lose."
   } else
-  if (playerChoice === "paper" && robortText.innerHTML === "scissor") {
+  if (playerChoice.innerHTML === "paper" && robortText.innerHTML === "scissor") {
     resultText.innerHTML = "Sorry, you lose."
   } else
-  if (playerChoice === "scissor" && robortText.innerHTML === "rock") {
+  if (playerChoice.innerHTML === "scissor" && robortText.innerHTML === "rock") {
     resultText.innerHTML = "Sorry, you lose."
   } else {
     resultText.innerHTML = "Congratulation! You win!"
