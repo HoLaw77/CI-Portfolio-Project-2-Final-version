@@ -23,6 +23,7 @@ function robortChoice(){
   if (numAsChoice == 2){robortChoice = "paper"} else
   if (numAsChoice == 3){robortChoice = "scissor"}
   robortChoice = document.getElementById("robortText");
+  gameResult();
 }
 function gameResult(){
   resultText = document.getElementById("resultText")
