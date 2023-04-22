@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
         if (this.getAttribute("id") === "rockBtn"){playerChoice = "rock"}
         if (this.getAttribute("id") === "paperBtn"){playerChoice = "paper"} 
         if (this.getAttribute("id") === "scissorsBtn"){playerChoice = "scissor"}
-        robortChoice();
+        robotChoice();
         gameResult();
         if (resultText.textcontent === "Congratulation! You win!"){incrementWin()};
         if (resultText.textcontent === "Sorry, you lose."){incrementLose()};
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 }
 ) 
 
-function robortChoice(){
+function robotChoice(){
   const numAsChoice = Math.floor(Math.random() * 3)+1
 
   if (numAsChoice == 1){robortChoice = "rock"} else 
