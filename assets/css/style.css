@@ -138,6 +138,7 @@ span {
 
     #logo{
       max-width: 30%;
+      padding-left: 100px;
     }
 
     #gameDiv{
