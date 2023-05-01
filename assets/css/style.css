@@ -110,7 +110,7 @@ span {
    }
 
    #logo{
-    size-adjust: 20%;
+    size: 20%;
    }
     #main-area {
   height: 1000px;
