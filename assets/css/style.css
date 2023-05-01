@@ -58,6 +58,10 @@ h1{
 .restartBtn > p {
   font-family: 'Press start 2p', sans-serif;
 }
+
+.restartBtn > i {
+ font-size: 30px;
+}
 span {
   margin: 10px;
 }
