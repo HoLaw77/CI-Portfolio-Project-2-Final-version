@@ -72,6 +72,9 @@ span {
     display: inline-block;
   }
 
+  .playerBtn > p {
+    font-family: 'press start 2p', sans-serif;
+  }
   i {
     color: rgb(255, 213, 0);
     font-size: 200%;
