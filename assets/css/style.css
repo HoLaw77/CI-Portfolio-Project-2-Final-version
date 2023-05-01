@@ -97,7 +97,7 @@ span {
     padding: 10px;
   }
   
-  @media screen and (max-width: 1600px){
+  @media screen and (min-width: 1600px){
    #score-box {
     height: auto;
    }
