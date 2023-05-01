@@ -108,6 +108,10 @@ span {
    #heading{
     font-size: 200%;
    }
+
+   #logo{
+    size-adjust: 20%;
+   }
     #main-area {
   height: 1000px;
 }
