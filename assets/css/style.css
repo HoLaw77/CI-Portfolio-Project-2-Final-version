@@ -111,6 +111,7 @@ span {
 
    #logo{
     max-width: 50%;
+    padding-left: 5px;
    }
     #main-area {
   height: 1000px;
@@ -133,6 +134,10 @@ span {
   @media screen and (max-width: 320px){
     #main-area {
       height: 1200px;
+    }
+
+    #logo{
+      max-width: 30%;
     }
 
     #gameDiv{
