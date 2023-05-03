@@ -149,6 +149,10 @@ span {
       height: 1200px;
     }
 
+    h1{
+      font-size: 50%;
+    }
+
     #logo{
       max-width: 30%;
       padding-left: 100px;
