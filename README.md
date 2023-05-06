@@ -11,7 +11,7 @@ players can play by clicking the button representing paper, scissor, and rock re
 <h1>Navigation and The Header</h1>
 
 <ul>
-<li>The Logo is located in the middle of the page, using a Syncopate font in light blue color and blueviolet background to match the cyberpunk setting of the theme.</li>
+<li>The Logo is located in the middle of the page, using a Press Start 2P font (which assimilates fonts commonly used in computer games) in light blue color and blueviolet background to match the cyberpunk setting of the theme.</li>
 
 <li>There is a photo of paper, scissors and rock below the logo to show that it is a game of paper, scissors and rock</li>
 
@@ -103,7 +103,7 @@ The Code to make increment function were taken from <a href = "https://github.co
 <a href="https://fontawesome.com/">https://fontawesome.com/</a>
 
 <h3>The Lato and Syncopate fonts are from Google fonts</h3>
-<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap</a>
+<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap</a>
 
 <h2>Photos reference</h2>
 
