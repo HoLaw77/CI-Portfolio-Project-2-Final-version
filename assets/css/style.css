@@ -123,9 +123,9 @@ span {
     max-width: 50%;
     padding-left: 70px;
    }
-    #main-area {
+    /*#main-area {
   height: 1000px;
-}
+}*/
   .choiceBtn{
    
    display: grid;
