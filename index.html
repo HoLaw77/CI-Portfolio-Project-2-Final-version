@@ -1,7 +1,6 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,45 +9,56 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <title>ROCK PAPER SCISSORS Computer Game</title>
 
 </head>
+
 <body>
-  <div id="main-area">
-    <h1 id="heading">
-        <img src = "assets/image/logo.png" alt="logo" width = "60" height="60">
-        ROCK PAPER SCISSORS
-    </h1>
-    <div id="logo">
-    <img src="assets/image/rock-paper-scissors.png" alt="title photo" width="250" height="250">
-    </div>
-    <div id="gameDiv">
+    <header id="main-area">
+        <h1 id="heading">
+            <img src="assets/image/logo.png" alt="logo" width="60" height="60">
+            ROCK PAPER SCISSORS
+        </h1>
+        <div id="logo">
+            <img src="assets/image/rock-paper-scissors.png" alt="title photo" width="250" height="250">
+        </div>
+    </header>
+    <main id="gameDiv">
         <h1 class="gameText" id="yourText">Your choice: </h1>
         <br>
         <br>
         <br>
-        
-        <button class= "playerBtn" id="rockBtn"><p>ROCK</p><i class="fa-solid fa-hand-back-fist"></i></button>
-        <button class= "playerBtn" id="paperBtn"><p>PAPER</p><i class="fa-sharp fa-solid fa-hand"></i></button>
-        <button class= "playerBtn" id="scissorsBtn"><p>SCISSORS</p><i class="fa-solid fa-hand-scissors"></i></button>
 
- <h1 class="gameText" id="robortText">Robot choice: </h1>
-       
+        <button class="playerBtn" id="rockBtn">
+            <p>ROCK</p><i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button class="playerBtn" id="paperBtn">
+            <p>PAPER</p><i class="fa-sharp fa-solid fa-hand"></i>
+        </button>
+        <button class="playerBtn" id="scissorsBtn">
+            <p>SCISSORS</p><i class="fa-solid fa-hand-scissors"></i>
+        </button>
+
+        <h1 class="gameText" id="robortText">Robot choice: </h1>
+
         <h1 class="gameText" id="resultText">Here is the result: </h1>
 
-    </div>
-</div>
-<div id="score-box">
-    <h1 id="winText">Win:<span id="win"> 0</span></h1>
-    <h1 id="drawText">Draw:<span  id="draw"> 0</span></h1>
-    <h1 id="loseText">Lose:<span id="lose"> 0</span></h1>
-    <br>
-    <br>
-    <button class="restartBtn" type="button" onclick="window.location.reload()"><p>RESTART</p><br><i class="fa-solid fa-gamepad"></i></button>
-</div>
-<script src="https://kit.fontawesome.com/086085115e.js" crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
-</body>
-</html>
+    </main>
 
+    <footer id="score-box">
+        <h1 id="winText">Win:<span id="win"> 0</span></h1>
+        <h1 id="drawText">Draw:<span id="draw"> 0</span></h1>
+        <h1 id="loseText">Lose:<span id="lose"> 0</span></h1>
+        <br>
+        <br>
+        <button class="restartBtn" type="button" onclick="window.location.reload()">
+            <p>RESTART</p><br><i class="fa-solid fa-gamepad"></i>
+        </button>
+    </footer>
+    <script src="https://kit.fontawesome.com/086085115e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
