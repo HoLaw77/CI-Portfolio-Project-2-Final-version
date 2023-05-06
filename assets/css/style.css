@@ -181,6 +181,10 @@ i {
 
     }
 
+    #gameDiv{
+      height: 1000px;
+    }
+
     #logo {
       max-width: 30%;
       padding-left: 150px;
