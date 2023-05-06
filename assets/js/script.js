@@ -1,8 +1,8 @@
-let playerChoice = document.getElementById("yourText");
-let robortText = document.getElementById("robortText");
 document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.getElementsByTagName("button");
-
+  let playerChoice = document.getElementById("yourText");
+  let robortText = document.getElementById("robortText");
+  
   for (let button of buttons) {
     button.addEventListener("click", function () {
       if (this.getAttribute("id") === "rockBtn") {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       };
     })
   }
-})
+
 
 
 function robotChoice() {
@@ -84,3 +84,4 @@ function incrementLose() {
   let score = parseInt(document.getElementById("lose").innerText);
   document.getElementById("lose").innerText = ++score;
 }
+})
