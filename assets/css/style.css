@@ -18,6 +18,12 @@
     font-family: 'Press Start 2P', sans-serif;
     color: lightblue;
     background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 h1{ 
@@ -142,9 +148,7 @@ span {
     margin-top: 5px;
   }
   @media screen and (max-width: 320px){
-    #main-area {
-      height: 1200px;
-    }
+    
 
     h1{
       font-size: 100%;
