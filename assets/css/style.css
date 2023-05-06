@@ -133,11 +133,19 @@ i {
   #score-box {
     height: auto;
   }
+
+  #result-text {
+    font-size: 200%;
+  }
 }
 
 
 @media screen and (max-width: 500px) {
   #heading {
+    font-size: 200%;
+  }
+
+  #result-text {
     font-size: 200%;
   }
 
