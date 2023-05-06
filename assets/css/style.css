@@ -138,9 +138,6 @@ span {
   margin-bottom: 10px;
   }
 
-  #gameDiv{
-    height: 200px;
-  }
   #score-area{
     margin-top: 5px;
   }
@@ -165,9 +162,6 @@ span {
       padding-left: 100px;
     }
 
-    #gameDiv{
-      height: 500px;
-    }
     .choiceBtn{
    
       display: grid;
