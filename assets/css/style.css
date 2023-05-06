@@ -125,10 +125,6 @@ span {
     font-size: 200%;
    }
 
-   #logo{
-    max-width: 50%;
-    padding-left: 70px;
-   }
     /*#main-area {
   height: 1000px;
 }*/
@@ -175,9 +171,7 @@ span {
      }
 
   }
-  #score-box{
-   margin-top: 15px;
-  }
+  
   
   }
     
