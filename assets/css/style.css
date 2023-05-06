@@ -145,6 +145,10 @@ i {
     font-size: 200%;
   }
 
+  #gameDiv {
+    height: 900px;
+  }
+
   #result-text {
     font-size: 200%;
   }
