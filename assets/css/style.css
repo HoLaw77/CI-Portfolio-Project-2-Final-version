@@ -5,7 +5,7 @@
     justify-content: center;
   }
 
-#main-area {
+#gameDiv{
   height: 800px;
   background-image: url(../image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw.jpeg);
   background-position: center;
