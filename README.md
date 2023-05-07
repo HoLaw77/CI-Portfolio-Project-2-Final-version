@@ -106,14 +106,14 @@ The link is here
 The Code to make increment function were taken from 
 
 
-[the CI LoveMath project]("https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things")
+[the CI LoveMath project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things)
 
 <h2>Media</h2>
 
 <h3>Icons are from font-awesome</h3> 
 
 
-[https://fontawesome.com/]("https://fontawesome.com/")
+[https://fontawesome.com](https://fontawesome.com/)
 
 <h3>The Lato and Press Start 2P fonts are from Google fonts</h3>
 
@@ -124,6 +124,6 @@ The Code to make increment function were taken from
 <h3>Index.html</h3>
 
 
-[https://freesvg.org/rock-paper-scissors]("https://freesvg.org/rock-paper-scissors")
+[https://freesvg.org/rock-paper-scissors](https://freesvg.org/rock-paper-scissors)
 
 [https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixexid.com%2Fsearch%2Fevent&psig=AOvVaw1iHJ60JOd-mRRjmN1IFCKw&ust=1683532187734000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCTwKLc4v4CFQAAAAAdAAAAABAE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixexid.com%2Fsearch%2Fevent&psig=AOvVaw1iHJ60JOd-mRRjmN1IFCKw&ust=1683532187734000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCTwKLc4v4CFQAAAAAdAAAAABAE)
