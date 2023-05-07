@@ -75,7 +75,7 @@ h3 {
   margin-bottom: 60px;
 }
 
-.restartBtn>p {
+.restartBtn {
   font-family: 'Press start 2p', sans-serif;
 }
 
@@ -100,7 +100,7 @@ span {
   display: inline-block;
 }
 
-.playerBtn>p {
+.playerBtn {
   font-family: 'press start 2p', sans-serif;
 }
 
