@@ -97,20 +97,24 @@ The link is here
 
 <h2>Content</h2>
 
-The Code to make increment function were taken from <a href = "https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things">the CI LoveMath project</a> 
+The Code to make increment function were taken from 
+
+[the CI LoveMath project]("https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things")
 
 <h2>Media</h2>
 
 <h3>Icons are from font-awesome</h3> 
-<a href="https://fontawesome.com/">https://fontawesome.com/</a>
+
+[https://fontawesome.com/]("https://fontawesome.com/")
 
 <h3>The Lato and Press Start 2P fonts are from Google fonts</h3>
-<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap" target="_blank">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap</a>
+
+[https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap)
 
 <h2>Photos reference</h2>
 
 <h3>Index.html</h3>
 
-<a href="https://freesvg.org/rock-paper-scissors">https://freesvg.org/rock-paper-scissors</a>
+[https://freesvg.org/rock-paper-scissors]("https://freesvg.org/rock-paper-scissors")
 
-https://pixexid.com/image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw
+[https://pixexid.com/image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw](https://pixexid.com/image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw)
