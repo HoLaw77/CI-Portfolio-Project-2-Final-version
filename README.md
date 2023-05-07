@@ -103,7 +103,7 @@ The Code to make increment function were taken from <a href = "https://github.co
 <a href="https://fontawesome.com/">https://fontawesome.com/</a>
 
 <h3>The Lato and Press Start 2P fonts are from Google fonts</h3>
-<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap</a>
+<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap" target="_blank">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap</a>
 
 <h2>Photos reference</h2>
 
