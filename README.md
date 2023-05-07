@@ -1,11 +1,12 @@
-<img src="assets/documentation/logo-photo.png" alt="logo">
+![logo](assets/documentation/logo-photo.png)
 <br>
 <br>
 Paper Scissor Rock Game is a game enable player to play paper scissor rock game with computer robot.
 
 players can play by clicking the button representing paper, scissor, and rock respectively. Player's choice will be printed in the "Your choice" section. Upon clicking, computer will generate a random choice which will be printed in the "robot choice" section.
 
-<img src="assets/documentation/responsiveness.png" alt="responsiveness">
+![responsiveness](assets/documentation/responsiveness.png) 
+
 <h1>Features</h1>
 
 <h1>Navigation and The Header</h1>
@@ -18,7 +19,8 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>The design of navigation not only present the usage of the game clearly, but it also arouses players' interests to serve and play the game.</li>
 </ul>
 <br>
-<img src="assets/documentation/navigation-and-header.png" alt="header">
+
+![header](assets/documentation/navigation-and-header.png)
 <br>
 <h1>Game area section</h1>
 
@@ -32,7 +34,8 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>The 3 buttons have clear font awesome icon and text to show paper, scissors and rock respectively.</li>
 </ul>
 <br>
-<img src="assets/documentation/Game-area.png" alt="game-area"> 
+
+![game-area](assets/documentation/Game-area.png) 
 
 <h1>Score area and Restart button</h1>
 
@@ -45,7 +48,8 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>A game board font-icon has been added in the restart button to indicate that it is a restart button for navigation and matches the theme of game.</li>
 </ul>
 <br>
-<img src="assets/documentation/score-area.png" alt="score area">
+
+![score-area](assets/documentation/score-area.png)
 <br>
 
 <h1>Testing</h1>
@@ -76,7 +80,8 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>Accesssibility: I confirm colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. </li>
 </ul>
 <br>
-<img src="assets/documentation/lighthouse.png" alt="lighthouse accessibility check">
+
+![lighthouse accessibility check](assets/documentation/lighthouse.png)
 <br>
 <h1>Deployment</h1>
 
