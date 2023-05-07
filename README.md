@@ -88,7 +88,9 @@ The page is deployed to github page, following the below steps.
 
 </ul>
 <br>
-The link is here [Rock Paper Scissor Game] (https://holaw77.github.io/CI-Portfolio-Project-2-Final-version/)
+The link is here 
+
+[Rock Paper Scissor Game](https://holaw77.github.io/CI-Portfolio-Project-2-Final-version/)
 <br>
 <br>
 <h1>Credit</h1>
