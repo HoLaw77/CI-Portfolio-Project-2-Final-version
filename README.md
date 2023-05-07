@@ -105,11 +105,13 @@ The link is here
 
 The Code to make increment function were taken from 
 
+
 [the CI LoveMath project]("https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things")
 
 <h2>Media</h2>
 
 <h3>Icons are from font-awesome</h3> 
+
 
 [https://fontawesome.com/]("https://fontawesome.com/")
 
@@ -120,6 +122,7 @@ The Code to make increment function were taken from
 <h2>Photos reference</h2>
 
 <h3>Index.html</h3>
+
 
 [https://freesvg.org/rock-paper-scissors]("https://freesvg.org/rock-paper-scissors")
 
