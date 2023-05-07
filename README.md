@@ -44,7 +44,7 @@ players can play by clicking the button representing paper, scissor, and rock re
 
 <li>The Score area background color is blueviolet to echo with that of the header.</li>
 
-<li>The restart button uses the window.location.reload function to refresh the game when player wants to resstart the game in order to produce the effect of limited number of play.</li>
+<li>The restart button uses the window.location.reload function to refresh the game when player wants to restart the game in order to produce the effect of limited number of play.</li>
 <li>A game board font-icon has been added in the restart button to indicate that it is a restart button for navigation and matches the theme of game.</li>
 </ul>
 <br>
@@ -63,10 +63,11 @@ players can play by clicking the button representing paper, scissor, and rock re
 <h2>Solve bug</h2>
 <ul>
 
-<li>I discover that some of my photo can not be positioned in the center of the page using align items.</li>
+<li>I discover that some of my photos cannot be positioned in the center of the page using align items.</li>
 <li>After checking in the W3school, I used the display:flex method to avoid adding padding to the image and fix it in the center of page even the media screen size changes.</li>
 <li>I also face difficulty in setting up a restart button. After revising the usage of window.location.reload(), I used this in index.html to avoid writing this function in script.js.</li>
 <li>After deployed the website, I find that some of the css style is missing. After checking I realised that it is because of adding an extra slash before the a href element.</li>
+<li>I also use the gap style to adjust the space between the title and logo in the header part</li>
 
 </ul>
 
